@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Democracy
 
-## Getting Started
+E-Democracy is a experimeantal project for graduation project of me Ahmet Tanrıkulu Uskudar University.
 
-First, run the development server:
+## Tech used
 
-```bash
+- NextJs
+- ReactJS
+- SASS, Styled Components, CSS
+
+## Installation
+
+E-democracy requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+git clone https://github.com/atnrkl/edem
+cd edem
+npm i
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open up
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+in your browser
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Project overview
 
-## Learn More
+## Pages
 
-To learn more about Next.js, take a look at the following resources:
+- FAQ
+- Proposals
+- Main Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+data is hardcoded in data/proposals.js, in a real life experience data should fetched from gov data
 
-## Deploy on Vercel
+## Styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+three different styling sheets used for this project such as SASS, Styled Components, and CSS
+SASS used for general cases, Styled Components used to style changing on props, CSS used for inline styling for small changes over different components
